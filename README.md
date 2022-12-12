@@ -1,20 +1,16 @@
-# 🚐Parking Management System
-A console application written in Python programming language. This system will help you manage a parking lot. You can easily identify if there is still available space for a vehicle. It also contributes on computing how much will a vehicle will pay.
+# Parking Management System
+A console application written in Python programming language. This system helps an employee manage a parking lot. It automatically displays parking vacancies and computes for the cost of using the parking space. 
 
 
 # Features
 1. Park a Vehicle
-
 2. Exit the Lot
-
 3. View a Parked Vehicle
-
 4. Display Vehicle Rates
-
 5. Run Demo
 
-## Dependencies
 
+## Dependencies
  - All codes are written in Python 3.
  - Some codes depend on `os` module
 	- `utils.py`  
@@ -46,7 +42,7 @@ Non-python files:
 Python files:
 |     File Name  |Description|
 |----------------|-------------------------------------------------------------|
-|`index.py`   	 |Displays the options the user can choose from.         	   |
+|`Main.py`   	 |Displays the options the user can choose from.         	   |
 |`utils.py` 	 	|Controls the choice what user selected in the choices. 	   |
 |`vehicle_info.py` |Gets the information about the vehicle				 	   |
 |`car.py`			 |Computes the fare if the vehicle type is car				   |
@@ -65,7 +61,7 @@ The group evaluated the system using the provided grading rubric, which resulted
 |Code Reusability 	|✔| | | |
 |Maintainability	|✔| | | |
 |Scalability		|✔| | | |
-|Execution		 	|✔| | | | 
+|Execution		|✔| | | | 
 |Originality	 	|✔| | | |
 |Overall Impression	|✔| | | |
 ## Youtube Video Link
