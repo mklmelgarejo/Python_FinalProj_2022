@@ -75,7 +75,7 @@ and add additional functionality specific to each type of vehicle. For example, 
 has a compute_fare method that calculates the fare for a car based on the amount of time it has 
 been parked.
 
-Together, these classes and modules work together to create a parking management system that 
+Together, these classes and modules work to create a parking management system that 
 allows users to park vehicles, view parked vehicles, and compute fares for each vehicle.
 
 
