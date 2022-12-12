@@ -52,7 +52,6 @@ Python files:
 
 ## UML Diagram
 ![318645114_5604183832984580_1063135367212618092_n](https://user-images.githubusercontent.com/114204913/206947287-c0c2de0f-5637-4392-99a6-a18a662cb04c.png)
-Here is a text-based UML diagram that represents the structure and relationships between the main classes in the parking management system. 
     
 The index.py file is the main entry point of the application. It imports the command_handler, 
 display_lot, and read_config functions from the utilities.utils module and uses them to run 
