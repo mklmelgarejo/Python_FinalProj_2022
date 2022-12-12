@@ -42,7 +42,7 @@ Non-python files:
 Python files:
 |     File Name  |Description|
 |----------------|-------------------------------------------------------------|
-|`Main.py`   	 |Displays the options the user can choose from         	   |
+|`index.py`   	 |Displays the options the user can choose from         	   |
 |`utils.py` 	 	|Controls the choice what user selected in the choices 	   |
 |`vehicle_info.py` |Gets the information about the vehicle				 	   |
 |`car.py`			 |Computes the fare if the vehicle type is "car"				   |
@@ -53,62 +53,8 @@ Python files:
 ## UML Diagram
 ![318645114_5604183832984580_1063135367212618092_n](https://user-images.githubusercontent.com/114204913/206947287-c0c2de0f-5637-4392-99a6-a18a662cb04c.png)
 Here is a text-based UML diagram that represents the structure and relationships between the main classes in the parking management system. 
-Main.py
-|
-+-- utilities.utils
-    |
-    +-- command_handler()
-    +-- display_lot()
-    +-- read_config()
-    +-- print_row()
-    +-- display_row_selection()
-    +-- display_space_selection()
-    +-- log_vehicle()
-    +-- demo()
-    +-- quit_application()
-    +-- get_space()
-    +-- check_plate()
-    +-- check_type()
-    +-- check_weight()
-    +-- check_time()
-    +-- get_rate()
-    +-- get_rates()
-
-+-- classes.vehicle_info.Vehicle
-    |
-    +-- __init__()
-    +-- compute_fare()
-    +-- get_type()
-    +-- get_type_string()
-    +-- get_plate()
-    +-- get_entry_time()
-    +-- set_entry_time()
-    +-- get_vehicle()
-
-+-- classes.space.Space
-    |
-    +-- __init__()
-    +-- add_vehicle()
-    +-- remove_vehicle()
-    +-- vehicle_info()
-    +-- is_available()
-
-+-- classes.vehicles.car.Car
-    |
-    +-- __init__()
-    +-- compute_fare()
-
-+-- classes.vehicles.motorcycle.Motorcycle
-    |
-    +-- __init__()
-    +-- compute_fare()
-
-+-- classes.vehicles.truck.Truck
-    |
-    +-- __init__()
-    +-- compute_fare()
     
-The Main.py file is the main entry point of the application. It imports the command_handler, 
+The index.py file is the main entry point of the application. It imports the command_handler, 
 display_lot, and read_config functions from the utilities.utils module and uses them to run 
 the main loop of the application.
 
