@@ -145,7 +145,6 @@ def fare_calculation(vehicle):
         return Motorcycle(vehicle.get_plate()).compute_fare()
 
 
-
 def log_vehicle_details(vehicle, exit_time):
     entry_time = vehicle.get_entry_time()
     time_spent = datetime.timedelta(seconds=(exit_time - entry_time))
@@ -165,6 +164,7 @@ def log_vehicle_details(vehicle, exit_time):
         json.dump(vehicle_data, file)
         file.write('\n')
 
+        
 def exit_lot(row, space):
     global spaces, avail_spaces, total_spaces, rows
 
@@ -206,7 +206,6 @@ def view_vehicle(row, space):
             time.strftime('%m-%d-%Y %I:%M %p',
                           time.localtime(vehicle.get_entry_time()))) + "\n"
                                                                        "\n*Press Enter to Return to Menu")
-
 
 def command_handler(command):
     
@@ -304,9 +303,7 @@ def command_handler(command):
     else:
         display_lot()
         print("Error: Invalid Command")
-        input("\n*Press Enter to Return to Menu")
-        
-
+        input("\n*Press Enter to Return to Menu")      
 
 
 def read_config():
