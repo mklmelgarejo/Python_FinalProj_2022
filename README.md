@@ -96,5 +96,5 @@ To watch explanation, click [here]()
 ## Contributors
 
  - [Mikaela Melgarejo](https://github.com/mklmelgarejo)
- - Rod Vincent Dilag
+ - [Rod Vincent Dilag](https://github.com/rdvncntdlg)
 
