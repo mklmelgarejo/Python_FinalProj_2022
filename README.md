@@ -33,22 +33,22 @@ A console application written in Python programming language. This system helps 
 ## Description of Files
 
 Non-python files:
-|      File Name  |Description|
-|-----------------|-------------------------------|
-|`README.md`   	  |Text file, description of the project            |
-|`vehicle_log.json` |JSON file, used as database for vehicle logs            |
-|`config.txt`       |Text file, used as configuration of parking space
+|     File Name     |Description                                       |
+|-------------------|--------------------------------------------------|
+|`README.md`   	    |Text file, description of the project             |
+|`vehicle_log.json` |JSON file, used as database for vehicle logs      |
+|`config.txt`       |Text file, used as configuration of parking space |
 
 Python files:
-|     File Name  |Description|
-|----------------|-------------------------------------------------------------|
-|`index.py`   	 |Displays the options the user can choose from         	   |
-|`utils.py` 	 	|Controls the choice what user selected in the choices 	   |
-|`vehicle_info.py` |Gets the information about the vehicle				 	   |
-|`car.py`			 |Computes the fare if the vehicle type is "car"				   |
-|`motorcycle.py`	 |Computes the fare if the vehicle type is "motorcycle"		   |
-|`truck.py`		 |Computes the fare if the vehicle type is "truck"			   |
-|`space.py`		 |Gives information about a space whether it is occupied or not|
+|     File Name     |Description|
+|-------------------|--------------------------------------------------------------|
+|`index.py`   	    |Displays the options the user can choose from         	   |
+|`utils.py` 	    |Controls the choice what user selected in the choices 	   |
+|`vehicle_info.py`  |Gets the information about the vehicle			   | 
+|`car.py`	    |Computes the fare if the vehicle type is "car"		   |
+|`motorcycle.py`    |Computes the fare if the vehicle type is "motorcycle"	   |
+|`truck.py`	    |Computes the fare if the vehicle type is "truck"		   |
+|`space.py`	    |Gives information about a space whether it is occupied or not |
 
 ## UML Diagram
 ![318645114_5604183832984580_1063135367212618092_n](https://user-images.githubusercontent.com/114204913/206947287-c0c2de0f-5637-4392-99a6-a18a662cb04c.png)
@@ -81,8 +81,8 @@ allows users to park vehicles, view parked vehicles, and compute fares for each 
 
 ## Self Assessment
 The group evaluated the system using the provided grading rubric, which resulted in the following:
-|       			|4|3|2|1|
-|-------------------|-|-|-|-|
+|       		|4|3|2|1|
+|-----------------------|-|-|-|-|
 |Code Reusability 	|✔| | | |
 |Maintainability	|✔| | | |
 |Scalability		|✔| | | |
@@ -91,10 +91,10 @@ The group evaluated the system using the provided grading rubric, which resulted
 |Overall Impression	|✔| | | |
 
 ## Youtube Video Link
-To watch explanation, click [here](https://www.youtube.com/watch?v=uxXS-KZAYOI)
+To watch explanation, click [here]()
 
 ## Contributors
 
- - Mikaela Melgarejo
+ - [Mikaela Melgarejo](https://github.com/mklmelgarejo)
  - Rod Vincent Dilag
 
