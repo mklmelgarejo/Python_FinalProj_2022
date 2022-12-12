@@ -235,7 +235,7 @@ def log_vehicle_details(vehicle, exit_time):
              "fare": fare}
 
     # Open the log file in append mode
-    with open("log.json", "a") as log_file:
+    with open("vehicle_log.json", "a") as log_file:
         # Write the log entry to the log file
         log_file.write(json.dumps(entry))
         # Add a newline after the entry
