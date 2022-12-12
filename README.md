@@ -91,7 +91,7 @@ The group evaluated the system using the provided grading rubric, which resulted
 |Overall Impression	|✔| | | |
 
 ## Youtube Video Link
-To watch explanation, click [here]()
+To watch explanation, click [here](https://www.youtube.com/watch?v=uxXS-KZAYOI)
 
 ## Contributors
 
