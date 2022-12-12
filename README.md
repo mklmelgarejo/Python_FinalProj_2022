@@ -89,8 +89,9 @@ The group evaluated the system using the provided grading rubric, which resulted
 |Execution		|✔| | | | 
 |Originality	 	|✔| | | |
 |Overall Impression	|✔| | | |
+
 ## Youtube Video Link
-To watch out video, click [here]()
+To watch explanation, click [here]()
 
 ## Contributors
 
