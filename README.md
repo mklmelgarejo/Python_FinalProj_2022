@@ -55,7 +55,8 @@ Python files:
 |`space.py`		 |Gives information about a space whether it is occupied or not|
 
 ## UML Diagram
-![umldiagram](https://photos.app.goo.gl/5sTCvgHQ545c6qCZ7)
+![318645114_5604183832984580_1063135367212618092_n](https://user-images.githubusercontent.com/114204913/206947287-c0c2de0f-5637-4392-99a6-a18a662cb04c.png)
+
 
 ## Self Assessment
 The group evaluated the system using the provided grading rubric, which resulted in the following:
