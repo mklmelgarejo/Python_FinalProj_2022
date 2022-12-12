@@ -53,28 +53,27 @@ Python files:
 ## UML Diagram
 ![318645114_5604183832984580_1063135367212618092_n](https://user-images.githubusercontent.com/114204913/206947287-c0c2de0f-5637-4392-99a6-a18a662cb04c.png)
     
-The index.py file is the main entry point of the application. It imports the command_handler, 
+The `index.py file` is the main entry point of the application. It imports the command_handler, 
 display_lot, and read_config functions from the utilities.utils module and uses them to run 
 the main loop of the application.
 
-The utilities.utils module contains several utility functions that are used by the Main.py file 
+The `utilities.utils module` contains several utility functions that are used by the Main.py file 
 to perform various tasks such as handling user input, displaying the parking lot, and logging 
 vehicle information to a file.
 
-The classes.vehicle_info.Vehicle class represents a vehicle in the parking lot. It contains 
+The `classes.vehicle_info.Vehicle class` represents a vehicle in the parking lot. It contains 
 information about the vehicle's type, license plate number, and entry time, as well as methods 
 for computing the fare and accessing this information.
 
-The classes.space.Space class represents a space in the parking lot. It has a Vehicle object 
+The `classes.space.Space class` represents a space in the parking lot. It has a Vehicle object 
 that can be added to or removed from the space, and a Boolean value that indicates whether the 
 space is currently occupied or not.
 
-The classes.vehicles.car.Car, classes.vehicles.motorcycle.Motorcycle, and 
-classes.vehicles.truck.Truck classes all inherit from the classes.vehicle_info.Vehicle class 
+The `classes.vehicles.car.Car`, `classes.vehicles.motorcycle.Motorcycle`, and 
+`classes.vehicles.truck.Truck` classes all inherit from the classes.vehicle_info.Vehicle class 
 and add additional functionality specific to each type of vehicle. For example, the Car class 
 has a compute_fare method that calculates the fare for a car based on the amount of time it has 
-been parked, while the Truck class has a compute_fare method that takes into account the weight 
-of the truck in addition to the amount of time it has been parked.
+been parked.
 
 Together, these classes and modules work together to create a parking management system that 
 allows users to park vehicles, view parked vehicles, and compute fares for each vehicle.
