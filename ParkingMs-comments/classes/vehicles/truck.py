@@ -5,9 +5,8 @@ from classes.vehicle_info import Vehicle
 
 class Truck(Vehicle):
     # Initialize the Truck object by calling the parent class (Vehicle) constructor and passing in the appropriate arguments
-    def __init__(self, plate, weight):
+    def __init__(self, plate):
         super().__init__(2, plate)
-        self.weight = weight
 
     # Compute the fare for the truck based on the amount of time it has been parked and its weight
     def compute_fare(self):
@@ -19,10 +18,6 @@ class Truck(Vehicle):
 
         # Initialize the number of extra hours to zero
         extra = 0
-
-        # If the truck weighs more than 2000 pounds, add an extra hour to the total number of hours for which the fare will be charged
-        if self.weight > 2000:
-            extra = hours
 
         # Calculate the total number of hours for which the fare will be charged
         tot_hours = hours + extra
