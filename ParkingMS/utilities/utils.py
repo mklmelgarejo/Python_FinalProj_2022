@@ -140,7 +140,7 @@ def fare_calculation(vehicle):
     if vehicle.get_type() == 1:
         return Car(vehicle.get_plate()).compute_fare()
     elif vehicle.get_type() == 2:
-        return Truck(vehicle.get_plate(), vehicle.get_weight()).compute_fare()
+        return Truck(vehicle.get_plate()).compute_fare()
     elif vehicle.get_type() == 3:
         return Motorcycle(vehicle.get_plate()).compute_fare()
 
