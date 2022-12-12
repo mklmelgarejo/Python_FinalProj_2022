@@ -354,31 +354,34 @@ def command_handler(command):
     
     # Check if the command is "2" (exit vehicle)
     elif command == "2":
-        # Keep asking for a row until a valid one is entered
-        while True:
-            # Display the row selection menu
-            display_row_selection()
-            # Prompt the user to enter a row
-            row = input("Select Row of Vehicle:\n"
-                        "   > ")
-            # Check if the entered row is valid
-            if row.isnumeric():
-                if int(row) < rows:
-                    break
+        try:
+            # Keep asking for a row until a valid one is entered
+            while True:
+                # Display the row selection menu
+                display_row_selection()
+                # Prompt the user to enter a row
+                row = input("Select Row of Vehicle:\n"
+                            "   > ")
+                # Check if the entered row is valid
+                if row.isnumeric():
+                    if int(row) < rows:
+                        break
 
-        # Keep asking for a space until a valid one is entered
-        while True:
-            # Display the space selection menu for the selected row
-            display_space_selection(row)
-            # Prompt the user to enter a space
-            space = input("Select Space of Vehicle:\n"
-                          "   > ")
-                # Check if the entered space is valid
-            if space.isnumeric():
-                if int(space) < space_count:
-                    break
-        # Try to remove the vehicle from the selected space
-        exit_lot(row, space)
+            # Keep asking for a space until a valid one is entered
+            while True:
+                # Display the space selection menu for the selected row
+                display_space_selection(row)
+                # Prompt the user to enter a space
+                space = input("Select Space of Vehicle:\n"
+                            "   > ")
+                    # Check if the entered space is valid
+                if space.isnumeric():
+                    if int(space) < space_count:
+                        break
+            # Try to remove the vehicle from the selected space
+            exit_lot(row, space)
+           except:
+            print("Lot is empty!")
     
     # Check if the command is "3" (view vehicle)
     elif command == "3":
