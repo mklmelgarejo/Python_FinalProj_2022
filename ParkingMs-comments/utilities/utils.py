@@ -354,6 +354,7 @@ def command_handler(command):
     
     # Check if the command is "2" (exit vehicle)
     elif command == "2":
+        # Handles error
         try:
             # Keep asking for a row until a valid one is entered
             while True:
@@ -380,6 +381,7 @@ def command_handler(command):
                         break
             # Try to remove the vehicle from the selected space
             exit_lot(row, space)
+           # Executes if there is an error
            except:
             print("Lot is empty!")
     
