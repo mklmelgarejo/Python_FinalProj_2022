@@ -45,9 +45,9 @@ Python files:
 |`Main.py`   	 |Displays the options the user can choose from.         	   |
 |`utils.py` 	 	|Controls the choice what user selected in the choices. 	   |
 |`vehicle_info.py` |Gets the information about the vehicle				 	   |
-|`car.py`			 |Computes the fare if the vehicle type is car				   |
-|`motorcycle.py`	 |Computes the fare if the vehicle type is motorcycle		   |
-|`truck.py`		 |Computes the fare if the vehicle type is truck			   |
+|`car.py`			 |Computes the fare if the vehicle type is "car"				   |
+|`motorcycle.py`	 |Computes the fare if the vehicle type is "motorcycle"		   |
+|`truck.py`		 |Computes the fare if the vehicle type is "truck"			   |
 |`space.py`		 |Gives information about a space whether it is occupied or not|
 
 ## UML Diagram
