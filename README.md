@@ -11,7 +11,7 @@ A console application written in Python programming language. This system helps 
 
 
 ## Dependencies
- - All codes are written in Python 3.
+ - All codes are written in `Python 3`.
  - Some codes depend on `os` module
 	- `utils.py`  
  - Some codes depend on `time` module
